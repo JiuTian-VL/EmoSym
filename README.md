@@ -1,8 +1,5 @@
 <div align="center">
-
-<!-- <h1>JiuTian (九天) </h1> -->
-EmoSym: A Symbiotic Framework for Unified Emotional Understanding and Generation via Latent Reasoning</h2>
-<div>
+<h2 class="papername"> EmoSym: A Symbiotic Framework for Unified Emotional Understanding and Generation via Latent Reasoning </h2>
 <div>
     <a href="https://scholar.google.com.hk/citations?user=0GtAUPoAAAAJ&hl=zh-CN&oi=sra" target="_blank">Yijie Zhu</a>,
     <a href="#" target="_blank">Yibo Lyu</a>,
@@ -12,7 +9,7 @@ EmoSym: A Symbiotic Framework for Unified Emotional Understanding and Generation
     <a href="http://faculty.hitsz.edu.cn/guanweili" target="_blank">Liqiang Nie</a>
 </div>
 
-School of Computer Science and Technology, Harbin Institute of Technology, Shenzhen<be>,
+School of Computer Science and Technology, Harbin Institute of Technology, Shenzhen<br>,
 Great Bay University<br>
 *Corresponding author
 
