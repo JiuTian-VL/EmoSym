@@ -4,7 +4,7 @@
 <h2 class="papername"> <img src="./assets/LION-FS.png" style="vertical-align: middle; height: 1em; padding: 0 0.2em;"> LION-FS: Fast &amp; Slow Video-Language Thinker as Online Video Assistant</h2>
 <div>
 <div>
-    <a href="https://orcid.org/0009-0007-7675-3550" target="_blank">Wei Li</a>,
+    <a href="[https://orcid.org/0009-0007-7675-3550](https://scholar.google.com.hk/citations?user=0GtAUPoAAAAJ&hl=zh-CN&oi=sra)" target="_blank">Yijie Zhu</a>,
     <a href="https://scholar.google.com/citations?user=rxaiRMUAAAAJ" target="_blank">Bing Hu</a>,
     <a href="https://rshaojimmy.github.io/" target="_blank">Rui Shao*</a>,
     <a href="https://www.slywiki.cn/" target="_blank">Leyang Shen</a>,
