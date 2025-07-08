@@ -5,13 +5,15 @@
 <div>
 <div>
     <a href="https://scholar.google.com.hk/citations?user=0GtAUPoAAAAJ&hl=zh-CN&oi=sra" target="_blank">Yijie Zhu</a>,
-    <a href="https://scholar.google.com/citations?user=rxaiRMUAAAAJ" target="_blank">Bing Hu</a>,
+    <a href="#" target="_blank">Yibo Lyu</a>,
+    <a href="https://zitongyu.github.io/" target="_blank">Zitong Yu*</a>, 
     <a href="https://rshaojimmy.github.io/" target="_blank">Rui Shao*</a>,
-    <a href="https://www.slywiki.cn/" target="_blank">Leyang Shen</a>,
+    <a href="https://kaiyangzhou.github.io/" target="_blank">Rui Shao*</a>,
     <a href="http://faculty.hitsz.edu.cn/guanweili" target="_blank">Liqiang Nie</a>
 </div>
 
-School of Computer Science and Technology, Harbin Institute of Technology, Shenzhen<br>
+School of Computer Science and Technology, Harbin Institute of Technology, Shenzhen<be>
+Great Bay University<br>
 *Corresponding author
 
 
