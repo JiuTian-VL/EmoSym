@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- <h1>JiuTian (九天) </h1> -->
-<h2 class="papername"> <img src="./assets/LION-FS.png" style="vertical-align: middle; height: 1em; padding: 0 0.2em;"> LION-FS: Fast &amp; Slow Video-Language Thinker as Online Video Assistant</h2>
+EmoSym: A Symbiotic Framework for Unified Emotional Understanding and Generation via Latent Reasoning</h2>
 <div>
 <div>
     <a href="https://scholar.google.com.hk/citations?user=0GtAUPoAAAAJ&hl=zh-CN&oi=sra" target="_blank">Yijie Zhu</a>,
@@ -12,7 +12,7 @@
     <a href="http://faculty.hitsz.edu.cn/guanweili" target="_blank">Liqiang Nie</a>
 </div>
 
-School of Computer Science and Technology, Harbin Institute of Technology, Shenzhen<be>
+School of Computer Science and Technology, Harbin Institute of Technology, Shenzhen<be>,
 Great Bay University<br>
 *Corresponding author
 
