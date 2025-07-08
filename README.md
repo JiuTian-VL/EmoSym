@@ -31,7 +31,7 @@ This is the github repository of *EmoSym: A Symbiotic Framework for Unified Emot
 The whole framework of LION-FS:
 
 <div align="center">
-<img src='assets/framework.png' width='100%'>
+<img src='assets/model.png' width='100%'>
 </div>
 
 ## :fire: Details will be released. Stay tuned.
