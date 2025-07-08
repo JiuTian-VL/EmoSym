@@ -4,8 +4,8 @@
     <a href="https://scholar.google.com.hk/citations?user=0GtAUPoAAAAJ&hl=zh-CN&oi=sra" target="_blank">Yijie Zhu</a>,
     <a href="https://orcid.org/0009-0001-1562-804X" target="_blank">Yibo Lyu</a>,
     <a href="https://zitongyu.github.io/" target="_blank">Zitong Yu*</a>, 
-    <a href="https://rshaojimmy.github.io/" target="_blank">Rui Shao*</a>,
-    <a href="https://kaiyangzhou.github.io/" target="_blank">Rui Shao*</a>,
+    <a href="https://rshaojimmy.github.io/OrionLab/" target="_blank">Rui Shao*</a>,
+    <a href="https://kaiyangzhou.github.io/" target="_blank">Kaiyang Zhou</a>,
     <a href="http://faculty.hitsz.edu.cn/guanweili" target="_blank">Liqiang Nie</a>
 </div>
 
@@ -28,11 +28,21 @@ Great Bay University<br>
 
 This is the github repository of *EmoSym: A Symbiotic Framework for Unified Emotional Understanding and Generation via Latent Reasoning*. In this work, we introduce EmoSym, a symbiotic framework that models emotional understanding and generation by leveraging latent reasoning.
 
-The whole framework of LION-FS:
+The whole framework of EmoSym:
 
 <div align="center">
 <img src='assets/model.png' width='100%'>
 </div>
 
 ## :fire: Details will be released. Stay tuned.
+## :pencil: Citation
+
+```bib
+@article{zhu2025emosym,
+  title={EmoSym: A Symbiotic Framework for Unified Emotional Understanding<br>and Generation via Latent Reasoning},
+  author={Yijie Zhu, Yibo Lyu, Zitong Yu, Rui Shao, Kaiyang Zhou and Liqiang Nie},
+  journal={xxx},
+  year={2025},
+  publisher={xxx}
+}
 
