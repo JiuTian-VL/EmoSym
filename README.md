@@ -38,11 +38,9 @@ The whole framework of EmoSym:
 ## :pencil: Citation
 
 ```bib
-@article{zhu2025emosym,
-  title={EmoSym: A Symbiotic Framework for Unified Emotional Understanding<br>and Generation via Latent Reasoning},
-  author={Yijie Zhu, Yibo Lyu, Zitong Yu, Rui Shao, Kaiyang Zhou and Liqiang Nie},
-  journal={xxx},
-  year={2025},
-  publisher={xxx}
+@inproceedings{zhu2025emosym,
+  title={EmoSym: A Symbiotic Framework for Unified Emotional Understanding and Generation via Latent Reasoning},
+   author={Zhu, Yijie and Lyu, Yibo and Yu, Zitong and Shao, Rui and Zhou, Kaiyang and Nie, Liqiang},
+  booktitle={Proceedings of the 33nd ACM International Conference on Multimedia},
+  year={2025}
 }
-
