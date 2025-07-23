@@ -40,7 +40,7 @@ The whole framework of EmoSym:
 ```bib
 @inproceedings{zhu2025emosym,
   title={EmoSym: A Symbiotic Framework for Unified Emotional Understanding and Generation via Latent Reasoning},
-   author={Zhu, Yijie and Lyu, Yibo and Yu, Zitong and Shao, Rui and Zhou, Kaiyang and Nie, Liqiang},
+  author={Zhu, Yijie and Lyu, Yibo and Yu, Zitong and Shao, Rui and Zhou, Kaiyang and Nie, Liqiang},
   booktitle={Proceedings of the 33nd ACM International Conference on Multimedia},
   year={2025}
 }
