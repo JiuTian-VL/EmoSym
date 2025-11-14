@@ -49,7 +49,7 @@ conda env create -f environment/env.yaml
 [EmoSet](https://vcc.tech/EmoSet) is needed to train in this network. You should use GPt-4o to expand the dataset! 
 Please download the following models from Hugging Face:
 Qwen2-VL-2B-Instruct, Qwen2-VL-7B-Instruct
-(Or the specific variants used in your experiments.)
+(Or the specific variants used in your experiments.), clip-vit-large-patch14, and stable-diffusion-v1-5.
 Before training, manually update the dataset-loading code so that the file path correctly points to your local EmoSet directory.
 
 ### Training
