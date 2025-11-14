@@ -53,7 +53,7 @@ Qwen2-VL-2B-Instruct, Qwen2-VL-7B-Instruct
 Before training, manually update the dataset-loading code so that the file path correctly points to your local EmoSet directory.
 
 ### Training
-To train our network, follow these steps:
+To train our model, follow these steps:
 
 Step 1 — Emotional Understanding Finetuning
 
