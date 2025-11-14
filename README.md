@@ -22,6 +22,7 @@ Great Bay University<br>
 ## :fire: If you find this work useful for your research, please kindly cite our paper and star our repo.
 
 ## :fire: Updates
+- [11/2025] The code is released!
 - [07/2025] EmoSym has been accepted by ACM MM 2025!
 
 ## :fire: Introduction
@@ -34,7 +35,6 @@ The whole framework of EmoSym:
 <img src='assets/model.png' width='100%'>
 </div>
 
-## :fire: Details will be released. Stay tuned.
 ## :pencil: Citation
 
 ```bib
