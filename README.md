@@ -78,8 +78,8 @@ To evaluate emotional understanding, run the following script:
 python code/Qwen2-VL-Finetune/src/training/evalutaion.py
 ```
 #### Emotional Generation
-For emotional generation evaluation, refer to the official EmoGen evaluation pipeline
-https://github.com/JingyuanYY/EmoGen/tree/master
+For emotional generation evaluation, refer to the official [EmoGen](https://github.com/JingyuanYY/EmoGen/tree/master) evaluation pipeline
+
 1. Compute the emotion space using the EmoGen method.
 2. Evaluate generated samples with the same metrics used in EmoGen (e.g., emotion alignment, diversity, intensity consistency).
 
