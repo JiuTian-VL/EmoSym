@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=1 accelerate launch --config_file accelerate/default_config.yaml /data4/EmoSym/code/Qwen2-VL-Finetune/src/training/Joint_training.py
+# CUDA_VISIBLE_DEVICES=5  python  /zhu_yi_jie/Zyj_MM/code/Qwen2-VL-Finetune/src/training/Joint_evaluation.py
