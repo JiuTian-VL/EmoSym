@@ -1,4 +1,4 @@
-name: EmoGen
+name: EmoSym
 channels:
   - pytorch
   - nvidia
