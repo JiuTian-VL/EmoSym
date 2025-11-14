@@ -60,22 +60,19 @@ bash code/Qwen2-VL-Finetune/scripts/finetune_emo.sh
 Second, we train the model with our step 2; you should modify the rf_model_path to the step 1.
 ```
 bash code/Qwen2-VL-Finetune/scripts/finetune_RL.sh 
+```
 Thirdly, start to train your own network:
-```
-accelerate training/main.py
+sh joint_training.sh
 ```
 
-Finally, generate emotional image:
+## Citation
+If you find this work useful, please kindly cite our paper:
 ```
-python training/inference.py
-```
-You can modify config/config.yaml to change some details.
-## :pencil: Citation
-
-```bib
 @inproceedings{zhu2025emosym,
   title={EmoSym: A Symbiotic Framework for Unified Emotional Understanding and Generation via Latent Reasoning},
   author={Zhu, Yijie and Lyu, Yibo and Yu, Zitong and Shao, Rui and Zhou, Kaiyang and Nie, Liqiang},
   booktitle={Proceedings of the 33nd ACM International Conference on Multimedia},
   year={2025}
 }
+```
+
