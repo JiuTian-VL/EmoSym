@@ -35,6 +35,41 @@ The whole framework of EmoSym:
 <img src='assets/model.png' width='100%'>
 </div>
 
+## Setup
+To create the conda environment needed to run the code, run the following command:
+
+```
+conda env create -f environment/env.yaml
+```
+
+Alternatively, install the requirements from `requirements.txt`
+
+## Usage
+
+### Preliminary
+[EmoSet](https://vcc.tech/EmoSet) is needed to train in this network. You should use GPt-4o to expand the dataset! 
+
+### Training
+To train our network, follow these steps:
+
+First, manually modify the code related to reading EmoSet and change the file location to the location where your EmoSet is located. You should download Qwen2-VL-2B/B/7B-Instruct from Hugging Face.
+Start to train your own network for the first step:
+```
+bash code/Qwen2-VL-Finetune/scripts/finetune_emo.sh
+```
+Second, we train the model with our step 2; you should modify the rf_model_path to the step 1.
+```
+bash code/Qwen2-VL-Finetune/scripts/finetune_RL.sh 
+Thirdly, start to train your own network:
+```
+accelerate training/main.py
+```
+
+Finally, generate emotional image:
+```
+python training/inference.py
+```
+You can modify config/config.yaml to change some details.
 ## :pencil: Citation
 
 ```bib
