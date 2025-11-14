@@ -42,28 +42,46 @@ To create the conda environment needed to run the code, run the following comman
 conda env create -f environment/env.yaml
 ```
 
-Alternatively, install the requirements from `requirements.txt`
 
 ## Usage
 
 ### Preliminary
 [EmoSet](https://vcc.tech/EmoSet) is needed to train in this network. You should use GPt-4o to expand the dataset! 
+Please download the following models from Hugging Face:
+Qwen2-VL-2B-Instruct, Qwen2-VL-7B-Instruct
+(Or the specific variants used in your experiments.)
+Before training, manually update the dataset-loading code so that the file path correctly points to your local EmoSet directory.
 
 ### Training
 To train our network, follow these steps:
 
-First, manually modify the code related to reading EmoSet and change the file location to the location where your EmoSet is located. You should download Qwen2-VL-2B/B/7B-Instruct from Hugging Face.
-Start to train your own network for the first step:
+Step 1 — Emotional Understanding Finetuning
+
+Run the initial finetuning script:
 ```
 bash code/Qwen2-VL-Finetune/scripts/finetune_emo.sh
 ```
-Second, we train the model with our step 2; you should modify the rf_model_path to the step 1.
+Step 2 — Reinforcement Learning Finetuning
+Modify the rf_model_path in the script to the checkpoint obtained in Step 1, then run:
 ```
 bash code/Qwen2-VL-Finetune/scripts/finetune_RL.sh 
 ```
-Thirdly, start to train your own network:
+Step 3 — Joint Training
+Run the joint training pipeline:
+```
 sh joint_training.sh
 ```
+### Evaluation
+#### Emotional Understanding
+To evaluate emotional understanding, run the following script:
+```
+python code/Qwen2-VL-Finetune/src/training/evalutaion.py
+```
+#### Emotional Generation
+For emotional image/text generation evaluation, refer to the official EmoGen evaluation pipeline
+https://github.com/JingyuanYY/EmoGen/tree/master
+1. Compute the emotion space using the EmoGen method.
+2. Evaluate generated samples with the same metrics used in EmoGen (e.g., emotion alignment, diversity, intensity consistency).
 
 ## Citation
 If you find this work useful, please kindly cite our paper:
