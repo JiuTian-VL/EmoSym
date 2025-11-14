@@ -39,7 +39,7 @@ The whole framework of EmoSym:
 To create the conda environment needed to run the code, run the following command:
 
 ```
-conda env create -f environment/env.yaml
+conda env create -f environment.yaml
 ```
 
 
