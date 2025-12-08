@@ -12,7 +12,7 @@
 School of Computer Science and Technology, Harbin Institute of Technology, Shenzhen<br>
 Great Bay University<br>
 *Corresponding author<br>
-[![arXiv](https://img.shields.io/badge/arXiv-2407.14439-b31b1b.svg?logo=arxiv)]([https://github.com/JiuTian-VL/EmoSym](https://dl.acm.org/doi/abs/10.1145/3746027.3754549))
+[![arXiv](https://img.shields.io/badge/arXiv-2407.14439-b31b1b.svg?logo=arxiv)]([https://dl.acm.org/doi/abs/10.1145/3746027.3754549])
 
 
 </div>
